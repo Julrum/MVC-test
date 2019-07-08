@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background: #333745;
+  color: #c7efcf;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background: #eef5db;
+  color: #333745;
+}
+
+.edit-title {
+  display: block;
+  width: 200px;
+}
+
+.edit-content {
+  display: block;
+  width: 200px;
+  height: 250px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #444444;
+  user-select: none;
+}
+
+thead > tr > td:first-child {
+  width: 50px;
+}
+
+thead > tr > td:last-child {
+  width: 200px;
+}
+
+tbody > tr > td:last-child {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
